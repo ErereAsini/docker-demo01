@@ -6,8 +6,8 @@ web:
   links:
     - db
   environment:
-    MYSQL_DATABASE: myapp
-    MYSQL_USER: myapp
+    MYSQL_DATABASE: mapper
+    MYSQL_USER: mapper
     MYSQL_PASSWORD: mysecurepass
     MYSQL_HOST: db
 db:
@@ -15,6 +15,6 @@ db:
   ports:
     - "3306:3306"
   environment:
-    MYSQL_DATABASE: myapp
-    MYSQL_USER: myapp
+    MYSQL_DATABASE: mapper
+    MYSQL_USER: mapper
     MYSQL_PASSWORD: mysecurepass
